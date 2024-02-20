@@ -25,3 +25,5 @@ struct ContentView: View {
 }
 git config user.name 'shiyan'
 git config user.email '782311713@qq.com'
+
+main
