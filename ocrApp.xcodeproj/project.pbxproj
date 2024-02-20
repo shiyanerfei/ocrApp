@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF8DF6D2B8477AD00B6BA86 /* ocrAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DF6C2B8477AD00B6BA86 /* ocrAppApp.swift */; };
+		DBF8DF6F2B8477AD00B6BA86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DF6E2B8477AD00B6BA86 /* ContentView.swift */; };
+		DBF8DF712B8477AE00B6BA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF8DF702B8477AE00B6BA86 /* Assets.xcassets */; };
+		DBF8DF742B8477AE00B6BA86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF8DF732B8477AE00B6BA86 /* Preview Assets.xcassets */; };
+		DBF8DF7F2B8477AE00B6BA86 /* ocrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DF7E2B8477AE00B6BA86 /* ocrAppTests.swift */; };
+		DBF8DF892B8477AE00B6BA86 /* ocrAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DF882B8477AE00B6BA86 /* ocrAppUITests.swift */; };
+		DBF8DF8B2B8477AE00B6BA86 /* ocrAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8DF8A2B8477AE00B6BA86 /* ocrAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF8DF7B2B8477AE00B6BA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF8DF612B8477AD00B6BA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF8DF682B8477AD00B6BA86;
+			remoteInfo = ocrApp;
+		};
+		DBF8DF852B8477AE00B6BA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF8DF612B8477AD00B6BA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF8DF682B8477AD00B6BA86;
+			remoteInfo = ocrApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF8DF692B8477AD00B6BA86 /* ocrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF8DF6C2B8477AD00B6BA86 /* ocrAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocrAppApp.swift; sourceTree = "<group>"; };
+		DBF8DF6E2B8477AD00B6BA86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBF8DF702B8477AE00B6BA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF8DF732B8477AE00B6BA86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBF8DF752B8477AE00B6BA86 /* ocrApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ocrApp.entitlements; sourceTree = "<group>"; };
+		DBF8DF7A2B8477AE00B6BA86 /* ocrAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF8DF7E2B8477AE00B6BA86 /* ocrAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocrAppTests.swift; sourceTree = "<group>"; };
+		DBF8DF842B8477AE00B6BA86 /* ocrAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocrAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF8DF882B8477AE00B6BA86 /* ocrAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocrAppUITests.swift; sourceTree = "<group>"; };
+		DBF8DF8A2B8477AE00B6BA86 /* ocrAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocrAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF8DF662B8477AD00B6BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF772B8477AE00B6BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF812B8477AE00B6BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF8DF602B8477AD00B6BA86 = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF6B2B8477AD00B6BA86 /* ocrApp */,
+				DBF8DF7D2B8477AE00B6BA86 /* ocrAppTests */,
+				DBF8DF872B8477AE00B6BA86 /* ocrAppUITests */,
+				DBF8DF6A2B8477AD00B6BA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF8DF6A2B8477AD00B6BA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF692B8477AD00B6BA86 /* ocrApp.app */,
+				DBF8DF7A2B8477AE00B6BA86 /* ocrAppTests.xctest */,
+				DBF8DF842B8477AE00B6BA86 /* ocrAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF8DF6B2B8477AD00B6BA86 /* ocrApp */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF6C2B8477AD00B6BA86 /* ocrAppApp.swift */,
+				DBF8DF6E2B8477AD00B6BA86 /* ContentView.swift */,
+				DBF8DF702B8477AE00B6BA86 /* Assets.xcassets */,
+				DBF8DF752B8477AE00B6BA86 /* ocrApp.entitlements */,
+				DBF8DF722B8477AE00B6BA86 /* Preview Content */,
+			);
+			path = ocrApp;
+			sourceTree = "<group>";
+		};
+		DBF8DF722B8477AE00B6BA86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF732B8477AE00B6BA86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBF8DF7D2B8477AE00B6BA86 /* ocrAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF7E2B8477AE00B6BA86 /* ocrAppTests.swift */,
+			);
+			path = ocrAppTests;
+			sourceTree = "<group>";
+		};
+		DBF8DF872B8477AE00B6BA86 /* ocrAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8DF882B8477AE00B6BA86 /* ocrAppUITests.swift */,
+				DBF8DF8A2B8477AE00B6BA86 /* ocrAppUITestsLaunchTests.swift */,
+			);
+			path = ocrAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF8DF682B8477AD00B6BA86 /* ocrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF8DF8E2B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrApp" */;
+			buildPhases = (
+				DBF8DF652B8477AD00B6BA86 /* Sources */,
+				DBF8DF662B8477AD00B6BA86 /* Frameworks */,
+				DBF8DF672B8477AD00B6BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ocrApp;
+			productName = ocrApp;
+			productReference = DBF8DF692B8477AD00B6BA86 /* ocrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF8DF792B8477AE00B6BA86 /* ocrAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF8DF912B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrAppTests" */;
+			buildPhases = (
+				DBF8DF762B8477AE00B6BA86 /* Sources */,
+				DBF8DF772B8477AE00B6BA86 /* Frameworks */,
+				DBF8DF782B8477AE00B6BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF8DF7C2B8477AE00B6BA86 /* PBXTargetDependency */,
+			);
+			name = ocrAppTests;
+			productName = ocrAppTests;
+			productReference = DBF8DF7A2B8477AE00B6BA86 /* ocrAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF8DF832B8477AE00B6BA86 /* ocrAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF8DF942B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrAppUITests" */;
+			buildPhases = (
+				DBF8DF802B8477AE00B6BA86 /* Sources */,
+				DBF8DF812B8477AE00B6BA86 /* Frameworks */,
+				DBF8DF822B8477AE00B6BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF8DF862B8477AE00B6BA86 /* PBXTargetDependency */,
+			);
+			name = ocrAppUITests;
+			productName = ocrAppUITests;
+			productReference = DBF8DF842B8477AE00B6BA86 /* ocrAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF8DF612B8477AD00B6BA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DBF8DF682B8477AD00B6BA86 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DBF8DF792B8477AE00B6BA86 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBF8DF682B8477AD00B6BA86;
+					};
+					DBF8DF832B8477AE00B6BA86 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBF8DF682B8477AD00B6BA86;
+					};
+				};
+			};
+			buildConfigurationList = DBF8DF642B8477AD00B6BA86 /* Build configuration list for PBXProject "ocrApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF8DF602B8477AD00B6BA86;
+			productRefGroup = DBF8DF6A2B8477AD00B6BA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF8DF682B8477AD00B6BA86 /* ocrApp */,
+				DBF8DF792B8477AE00B6BA86 /* ocrAppTests */,
+				DBF8DF832B8477AE00B6BA86 /* ocrAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF8DF672B8477AD00B6BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8DF742B8477AE00B6BA86 /* Preview Assets.xcassets in Resources */,
+				DBF8DF712B8477AE00B6BA86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF782B8477AE00B6BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF822B8477AE00B6BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF8DF652B8477AD00B6BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8DF6F2B8477AD00B6BA86 /* ContentView.swift in Sources */,
+				DBF8DF6D2B8477AD00B6BA86 /* ocrAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF762B8477AE00B6BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8DF7F2B8477AE00B6BA86 /* ocrAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8DF802B8477AE00B6BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8DF892B8477AE00B6BA86 /* ocrAppUITests.swift in Sources */,
+				DBF8DF8B2B8477AE00B6BA86 /* ocrAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF8DF7C2B8477AE00B6BA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF8DF682B8477AD00B6BA86 /* ocrApp */;
+			targetProxy = DBF8DF7B2B8477AE00B6BA86 /* PBXContainerItemProxy */;
+		};
+		DBF8DF862B8477AE00B6BA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF8DF682B8477AD00B6BA86 /* ocrApp */;
+			targetProxy = DBF8DF852B8477AE00B6BA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBF8DF8C2B8477AE00B6BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF8DF8D2B8477AE00B6BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DBF8DF8F2B8477AE00B6BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ocrApp/ocrApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ocrApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBF8DF902B8477AE00B6BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ocrApp/ocrApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ocrApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBF8DF922B8477AE00B6BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocrApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ocrApp";
+			};
+			name = Debug;
+		};
+		DBF8DF932B8477AE00B6BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocrApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ocrApp";
+			};
+			name = Release;
+		};
+		DBF8DF952B8477AE00B6BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ocrApp;
+			};
+			name = Debug;
+		};
+		DBF8DF962B8477AE00B6BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ocrAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ocrApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF8DF642B8477AD00B6BA86 /* Build configuration list for PBXProject "ocrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8DF8C2B8477AE00B6BA86 /* Debug */,
+				DBF8DF8D2B8477AE00B6BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF8DF8E2B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8DF8F2B8477AE00B6BA86 /* Debug */,
+				DBF8DF902B8477AE00B6BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF8DF912B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8DF922B8477AE00B6BA86 /* Debug */,
+				DBF8DF932B8477AE00B6BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF8DF942B8477AE00B6BA86 /* Build configuration list for PBXNativeTarget "ocrAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8DF952B8477AE00B6BA86 /* Debug */,
+				DBF8DF962B8477AE00B6BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF8DF612B8477AD00B6BA86 /* Project object */;
+}
