@@ -16,9 +16,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .frame(width: 512.0, height: 700.0)
     }
 }
 
 #Preview {
     ContentView()
 }
+git config user.name 'shiyan'
+git config user.email '782311713@qq.com'
